@@ -1,0 +1,23 @@
+{
+  "name": "livebeat",
+  "version": "1.0.0",
+  "description": "A simple drum and bass machine for live musicians",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "serve": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "drum machine",
+    "bass",
+    "sequencer",
+    "midi",
+    "web audio",
+    "pwa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
